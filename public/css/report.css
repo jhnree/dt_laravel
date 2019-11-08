@@ -1,0 +1,69 @@
+.rpt-container{
+    margin-top: 35px;
+}
+
+#btn-attendance a, #btn-inBetween a{
+    color: #1c4170!important;
+}
+
+#btn-attendance a.active, #btn-inBetween a.active{
+    background: #1c4170!important;
+    color: whitesmoke!important;
+}
+
+thead{
+    background: #0e213a!important;
+    color: whitesmoke!important;
+}
+
+#attendance{
+    padding: 0px!important;
+}
+
+thead tr th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    vertical-align: inherit!important;
+    text-align: center;
+    padding-top: 7px!important;
+    padding-bottom: 7px!important;
+}
+
+tbody tr td{
+    vertical-align: inherit!important;
+    text-align: center;
+}
+
+.rpt-input{
+    font-size: .9rem!important;
+    background-color: #0e213a!important;
+    border: 2px #0e213a solid!important;
+    width: 70px;
+}
+
+.datepicker{
+    cursor: pointer;
+    color: transparent!important;
+    text-shadow: 0 0 0 #0e213a!important;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+#generate{
+    background: #133057!important;
+    color: white!important;
+    width: 140px;
+}
+
+#generate:hover{
+    background: #0f2746!important;
+}
+
+#generate:focus{
+    box-shadow: none;
+    
+}
+
+#generate:active{
+    font-size: 1rem;
+}
